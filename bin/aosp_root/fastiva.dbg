@@ -1,0 +1,17 @@
+0
+9912
+1
+1
+Ljava/lang/SecurityException;
+-Lcom/android/email/service/Pop3Service;
+
+
+===================
+0: no break, 1: break on exception, 2 : break on sigbus, 3 : break on sigsegv, 4~9: halt on sigsegv
+thread-id
+cnt-exception
+suspend-all : 1 or 0
+break-on-exception-type
+break-on-class-not-found-exception
+
+
