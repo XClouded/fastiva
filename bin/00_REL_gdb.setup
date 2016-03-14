@@ -1,0 +1,8 @@
+set solib-search-path /home/zeedh/android/kitkat-4.4.4/out/target/product/grouper/symbols/vendor/bin:/home/zeedh/android/kitkat-4.4.4/out/target/product/grouper/symbols/vendor/lib:/home/zeedh/android/kitkat-4.4.4/out/target/product/grouper/symbols/system/bin:/home/zeedh/android/fastiva-nexus5-4.4.4/obj/local/armeabi-v7a:/home/zeedh/android/fastiva-nexus5-4.4.4/obj/data/app/com.google.android.gms-2.apk.fastiva/obj/local/armeabi-v7a
+file /home/zeedh/android/kitkat-4.4.4/out/target/product/grouper/symbols/vendor/lib/libdvm.so
+target remote :5039
+info thread
+set sleep_on_break=0
+handle SIGUSR2 pass nostop noprint
+p gc_start_threadId
+p/x gDvm.gcHeapLock

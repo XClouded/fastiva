@@ -1,0 +1,7 @@
+. /work/jpp/envsetup.sh cubie3-4.2.2 cubie3-fastiva-4.2.2/android 
+cd $FASTIVA_PATH
+. build/envsetup.sh
+lunch sugar_cubietruck-eng
+#for first initializing
+#extract-bsp
+. init-release.sh
