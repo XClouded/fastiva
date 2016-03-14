@@ -1,0 +1,6 @@
+BASEDIR=$(dirname $0)/signapk 
+rm -f $2
+java -jar $BASEDIR/signapk.jar $BASEDIR/testkey.x509.pem $BASEDIR/testkey.pk8 $1 $2
+#jarsigner -sigalg MD5withRSA -digestalg SHA1 -keystore $BASEDIR/geni.keystore $2 genian123
+#$BASEDIR/zipalign 4 $1 $2
+

@@ -1,0 +1,6 @@
+for f in $(adb shell ls $1); do 
+	f=$(echo $f | tr -d ' \r\n') 
+	echo "==== extracting $f ====" 
+	adb pull $f
+done
+

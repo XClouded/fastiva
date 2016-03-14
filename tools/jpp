@@ -1,0 +1,2 @@
+BASEDIR=$(dirname $0) 
+java -cp $BASEDIR/cod/Jpp3_RAW.jar com.wise.jpp.DumpClass $*

@@ -1,0 +1,30 @@
+WORK_DIR=`pwd`
+ROOT_DIR=$(dirname $(dirname $(dirname $WORK_DIR)))
+TARGET=$(echo $WORK_DIR | sed -e "s@$ROOT_DIR/@@")
+TARGET=$(echo $TARGET | tr -t '/' '@')
+TARGET=$(echo $TARGET | sed -e "s@.fastiva@\@classes.dex.so@")
+echo $WORK_DIR
+echo $TARGET
+adb shell mkdir -p /sdcard/fastiva
+adb shell mkdir -p /sdcard/fastiva/dalvik-cache
+mkdir -p $OUT/symbols/data/dalvik-cache
+
+cp $WORK_DIR/obj/local/armeabi-v7a/libfandroid.so $WORK_DIR/obj/local/armeabi-v7a/$TARGET
+cp $WORK_DIR/obj/local/armeabi-v7a/libfandroid.so $OUT/symbols/data/dalvik-cache/$TARGET
+adb push $WORK_DIR/libs/armeabi-v7a/libfandroid.so /data/dalvik-cache/$TARGET 
+m-init_gdb.setup.sh $WORK_DIR/obj/local/armeabi-v7a
+exit 0
+
+adb push $WORK_DIR/libs/armeabi-v7a/libfandroid.so /sdcard/fastiva/dalvik-cache/$TARGET
+adb shell su -c "mount -o remount,rw /system" && 
+adb shell su -c "cp /sdcard/fastiva/dalvik-cache/$TARGET data/dalvik-cache" && 
+adb shell su -c "chmod 644 data/dalvik-cache/$TARGET" && 
+adb shell su -c "chown system:system data/dalvik-cache/$TARGET"
+
+if [ "$1" = "-r" ] 
+then
+	adb reboot
+	sleep 3
+	adb logcat
+fi
+

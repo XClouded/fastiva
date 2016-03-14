@@ -1,0 +1,1 @@
+make -j4 WITH_DEXPREOPT=false WITH_JIT=false DEBUG_DALVIK_VM=true SHOW_COMMANDS=true

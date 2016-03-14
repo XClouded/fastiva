@@ -1,0 +1,3 @@
+BASEDIR=$(dirname $0) 
+$BASEDIR/d2j/d2j-dex2jar $*
+

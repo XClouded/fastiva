@@ -1,0 +1,3 @@
+vi zee22
+~/sdk/android-ndk-r8e/ndk-stack -sym $PRODUCT_DIR/symbols/system/lib -dump zee22
+

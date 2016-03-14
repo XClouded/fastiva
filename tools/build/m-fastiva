@@ -1,0 +1,3 @@
+BASEDIR=$(dirname $0) 
+echo make -f $BASEDIR/Fastiva.mk $*
+make -f $BASEDIR/Fastiva.mk $*

@@ -1,0 +1,2229 @@
+
+#ifndef __JPP_EXTERNAL_CONSTANTS_H__
+#define __JPP_EXTERNAL_CONSTANTS_H__
+
+#include <LibcoreConstants.h>
+
+#ifdef _MSC_VER
+#pragma component(browser, off)
+#endif
+
+JPP_BEGIN_EXTERNAL_PACKAGE_ID_LIST()
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_util)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_database)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_view)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_view_accessibility)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_widget)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_content)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_content_pm)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_accessibilityservice)
+	JPP_DECL_PACKAGE_ID_SLOT(com_wise_amark)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_app)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_net)
+	JPP_DECL_PACKAGE_ID_SLOT(demo_amark_b)
+	JPP_DECL_PACKAGE_ID_SLOT(demo_amark_c)
+	JPP_DECL_PACKAGE_ID_SLOT(demo_amark_d)
+	JPP_DECL_PACKAGE_ID_SLOT(wish_lcdui)
+	JPP_DECL_PACKAGE_ID_SLOT(android_support_v4_os)
+JPP_END_EXTERNAL_PACKAGE_ID_LIST()
+
+
+JPP_BEGIN_CLASS_ID_LIST()
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_database)
+	JPP_DECL_CLASS_ID(android_support_v4_database_DatabaseUtilsCompat)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_app)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0IntentBuilder)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0NotificationCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompatICS)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0NotificationCompatImplHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost_0SavedState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0ShareCompatImplICS)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost_0SavedState)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0BigTextStyle)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle_0ActionBarDrawerToggleImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilder)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentState)
+	JPP_DECL_CLASS_ID(android_support_v4_app_Fragment_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManager_0BackStackEntry)
+	JPP_DECL_CLASS_ID(android_support_v4_app_Fragment_0SavedState)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0BigPictureStyle)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ListFragment)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ListFragment_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ListFragment_02)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0IntentReader)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl_02)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl_03)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl_04)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl_05)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggleHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityCompatJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManager_0OnBackStackChangedListener)
+	JPP_DECL_CLASS_ID(android_support_v4_app_LoaderManager)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle_0ActionBarDrawerToggleImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_BackStackState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilder_0TaskStackBuilderImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_DialogFragment)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityOptionsCompatJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NavUtils_0NavUtilsImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompatJellybean)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggleHoneycomb_0SetIndicatorInfo)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost_0DummyTabFactory)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0ShareCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilder_0TaskStackBuilderImplJellybean)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NavUtils)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentActivity_0FragmentTag)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentActivity_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentActivity_02)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilderJellybean)
+	JPP_DECL_CLASS_ID(android_support_v4_app_BackStackRecord)
+	JPP_DECL_CLASS_ID(android_support_v4_app_LoaderManager_0LoaderCallbacks)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompatJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle_0ActionBarDrawerToggleImplHC)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTransaction)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ServiceCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0NotificationCompatImplIceCreamSandwich)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0NotificationCompatImplJellybean)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0ShareCompatImplJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_SuperNotCalledException)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentContainer)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NavUtils_0NavUtilsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_BackStackState)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManagerState)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentStatePagerAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentManager)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ShareCompat_0ShareCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_Fragment_0SavedState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentActivity)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0Action)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompatIceCreamSandwich)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NavUtils_0NavUtilsImplJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilder_0TaskStackBuilderImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0NotificationCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NoSaveStateFrameLayout)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentTabHost_0TabInfo)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilder_0TaskStackBuilderImplHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentActivity_0NonConfigurationInstances)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActionBarDrawerToggle_0SlideDrawable)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0Builder)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NavUtilsJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0InboxStyle)
+	JPP_DECL_CLASS_ID(android_support_v4_app_TaskStackBuilderHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityOptionsCompat_0ActivityOptionsImplJB)
+	JPP_DECL_CLASS_ID(android_support_v4_app_Fragment_0InstantiationException)
+	JPP_DECL_CLASS_ID(android_support_v4_app_FragmentPagerAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_app_BackStackRecord_0Op)
+	JPP_DECL_CLASS_ID(android_support_v4_app_LoaderManagerImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_app_NotificationCompat_0Style)
+	JPP_DECL_CLASS_ID(android_support_v4_app_LoaderManagerImpl_0LoaderInfo)
+	JPP_DECL_CLASS_ID(android_support_v4_app_ActivityOptionsCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_app_Fragment)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_util)
+	JPP_DECL_CLASS_ID(android_support_v4_util_LogWriter)
+	JPP_DECL_CLASS_ID(android_support_v4_util_SparseArrayCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_util_AtomicFile)
+	JPP_DECL_CLASS_ID(android_support_v4_util_TimeUtils)
+	JPP_DECL_CLASS_ID(android_support_v4_util_DebugUtils)
+	JPP_DECL_CLASS_ID(android_support_v4_util_LongSparseArray)
+	JPP_DECL_CLASS_ID(android_support_v4_util_LruCache)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_content)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ContextCompatJellybean)
+	JPP_DECL_CLASS_ID(android_support_v4_content_LocalBroadcastManager_0BroadcastRecord)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_content_LocalBroadcastManager_01)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompat_0IntentCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_01)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_02)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_03)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_04)
+	JPP_DECL_CLASS_ID(android_support_v4_content_FileProvider_0PathStrategy)
+	JPP_DECL_CLASS_ID(android_support_v4_content_Loader_0OnLoadCompleteListener)
+	JPP_DECL_CLASS_ID(android_support_v4_content_CursorLoader)
+	JPP_DECL_CLASS_ID(android_support_v4_content_FileProvider)
+	JPP_DECL_CLASS_ID(android_support_v4_content_FileProvider_0SimplePathStrategy)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_0WorkerRunnable)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ContextCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ContextCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompat_0IntentCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompatIcsMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompat_0IntentCompatImplIcsMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_content_AsyncTaskLoader_0LoadTask)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_0Status)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_0AsyncTaskResult)
+	JPP_DECL_CLASS_ID(android_support_v4_content_Loader_0ForceLoadContentObserver)
+	JPP_DECL_CLASS_ID(android_support_v4_content_AsyncTaskLoader)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask_0InternalHandler)
+	JPP_DECL_CLASS_ID(android_support_v4_content_IntentCompat_0IntentCompatImplHC)
+	JPP_DECL_CLASS_ID(android_support_v4_content_Loader)
+	JPP_DECL_CLASS_ID(android_support_v4_content_LocalBroadcastManager)
+	JPP_DECL_CLASS_ID(android_support_v4_content_LocalBroadcastManager_0ReceiverRecord)
+	JPP_DECL_CLASS_ID(android_support_v4_content_ModernAsyncTask)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_content_pm)
+	JPP_DECL_CLASS_ID(android_support_v4_content_pm_ActivityInfoCompat)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_view)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0OnPageChangeListener)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0Decor)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuItemCompat_0HoneycombMenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0PagerObserver)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewConfigurationCompat_0ViewConfigurationVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuCompat_0BaseMenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatIcs_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompat_0ViewGroupCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0JBViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewConfigurationCompat_0BaseViewConfigurationVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GravityCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0BaseViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompat_0EclairKeyEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompat_0ViewGroupCompatStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MotionEventCompat_0BaseMotionEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompatHC)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompat_0KeyEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStripIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTabStrip_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTabStrip_02)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateJellyBeanImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0OnAdapterChangeListener)
+	JPP_DECL_CLASS_ID(android_support_v4_view_VelocityTrackerCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0GBViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MotionEventCompatEclair)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0SavedState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatJellyBean_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MotionEventCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip_0PagerTitleStripImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_view_VelocityTrackerCompat_0VelocityTrackerVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatJellyBean_0AccessibilityDelegateBridgeJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompat_0ViewGroupCompatIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTabStrip)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GravityCompatJellybeanMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GestureDetectorCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_VelocityTrackerCompat_0HoneycombVelocityTrackerVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_VelocityTrackerCompat_0BaseVelocityTrackerVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatIcs_0AccessibilityDelegateBridge)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0PageTransformer)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompatHC)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompatJB)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompatGingerbread)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewConfigurationCompatFroyo)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0ViewPositionComparator)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MotionEventCompat_0MotionEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompatJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip_0PagerTitleStripImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip_0PageListener)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStripIcs_0SingleLineAllCapsTransform)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0MyAccessibilityDelegate)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuItemCompat_0MenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuItemCompat_0BaseMenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompat_0HoneycombKeyEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_VelocityTrackerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GravityCompat_0GravityCompatImplJellybeanMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateIcsImpl_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0ICSViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0ViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0JbMr1ViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompat_0BaseKeyEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0LayoutParams)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompatJellybeanMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GravityCompat_0GravityCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_02)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_03)
+	JPP_DECL_CLASS_ID(android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateJellyBeanImpl_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0SimpleOnPageChangeListener)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MotionEventCompat_0EclairMotionEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuItemCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuItemCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewConfigurationCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImplBase_0GestureHandler)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0SavedState)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewPager_0ItemInfo)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImplJellybeanMr2)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewConfigurationCompat_0FroyoViewConfigurationVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuCompat_0HoneycombMenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat_0HCViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewGroupCompat_0ViewGroupCompatHCImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompatICS)
+	JPP_DECL_CLASS_ID(android_support_v4_view_ViewCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_KeyEventCompatEclair)
+	JPP_DECL_CLASS_ID(android_support_v4_view_PagerTitleStrip_0PagerTitleStripImplIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_MenuCompat_0MenuVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_GravityCompat_0GravityCompatImpl)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_os)
+	JPP_DECL_CLASS_ID(android_support_v4_os_ParcelableCompatCreatorHoneycombMR2Stub)
+	JPP_DECL_CLASS_ID(android_support_v4_os_ParcelableCompatCreatorHoneycombMR2)
+	JPP_DECL_CLASS_ID(android_support_v4_os_ParcelableCompatCreatorCallbacks)
+	JPP_DECL_CLASS_ID(android_support_v4_os_ParcelableCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_os_ParcelableCompat_0CompatCreator)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_view_accessibility)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityStateChangeListenerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompatJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_0AccessibilityNodeProviderImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompatIcsMr1)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_0AccessibilityNodeProviderJellyBeanImpl_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat_0AccessibilityRecordIcsMr1Impl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityEventCompat_0AccessibilityEventIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityManagerVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityEventCompat_0AccessibilityEventVersionImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompatJellyBean_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat_0AccessibilityRecordImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_0AccessibilityNodeProviderStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityManagerStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_0AccessibilityNodeInfoImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_0AccessibilityNodeInfoJellybeanImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_0AccessibilityNodeInfoIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityManagerIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_0AccessibilityNodeProviderJellyBeanImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompatJellyBean_0AccessibilityNodeInfoBridge)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat_0AccessibilityRecordStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_0AccessibilityNodeInfoStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompatJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat_0AccessibilityRecordIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityEventCompat_0AccessibilityEventStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompatIcs_01)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompatIcs_0AccessibilityStateChangeListenerBridge)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityEventCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeInfoCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityEventCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityNodeProviderCompatJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityRecordCompat_0AccessibilityRecordJellyBeanImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityManagerIcsImpl_01)
+	JPP_BEGIN_PACKAGE_CLASS_ID(com_wise_amark)
+	JPP_DECL_CLASS_ID(com_wise_amark_R)
+	JPP_DECL_CLASS_ID(com_wise_amark_MainActivity)
+	JPP_DECL_CLASS_ID(com_wise_amark_Screen)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0string)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0attr)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0layout)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0menu)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0dimen)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0drawable)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0id)
+	JPP_DECL_CLASS_ID(com_wise_amark_MainActivity_01)
+	JPP_DECL_CLASS_ID(com_wise_amark_BuildConfig)
+	JPP_DECL_CLASS_ID(com_wise_amark_R_0style)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_net)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_0TrafficStatsCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_0BaseTrafficStatsCompatImpl_0SocketTags)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat_0BaseConnectivityManagerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompatJellyBean)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_0IcsTrafficStatsCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_01)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_0BaseTrafficStatsCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat_0GingerbreadConnectivityManagerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompatGingerbread)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat_0JellyBeanConnectivityManagerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompatHoneycombMR2)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat_0HoneycombMR2ConnectivityManagerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_ConnectivityManagerCompat_0ConnectivityManagerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_net_TrafficStatsCompat_0BaseTrafficStatsCompatImpl_01)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_accessibilityservice)
+	JPP_DECL_CLASS_ID(android_support_v4_accessibilityservice_AccessibilityServiceInfoCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_accessibilityservice_AccessibilityServiceInfoCompat_0AccessibilityServiceInfoIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_accessibilityservice_AccessibilityServiceInfoCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_accessibilityservice_AccessibilityServiceInfoCompat_0AccessibilityServiceInfoStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_accessibilityservice_AccessibilityServiceInfoCompat_0AccessibilityServiceInfoVersionImpl)
+	JPP_BEGIN_PACKAGE_CLASS_ID(wish_lcdui)
+	JPP_DECL_CLASS_ID(wish_lcdui_SurfaceView)
+	JPP_DECL_CLASS_ID(wish_lcdui_Graphics_0Polygon)
+	JPP_DECL_CLASS_ID(wish_lcdui_Graphics)
+	JPP_DECL_CLASS_ID(wish_lcdui_Image)
+	JPP_BEGIN_PACKAGE_CLASS_ID(demo_amark_d)
+	JPP_DECL_CLASS_ID(demo_amark_d_a)
+	JPP_BEGIN_PACKAGE_CLASS_ID(android_support_v4_widget)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_EdgeEffectCompat_0EdgeEffectImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_EdgeEffectCompat_0EdgeEffectIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0OnCloseListenerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_EdgeEffectCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorAdapter_0MyDataSetObserver)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatIcs_0MySearchView)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SavedState)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0AccessibilityDelegate)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0LayoutParams)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorAdapter_0ChangeObserver)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorFilter_0CursorFilterClient)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompat_0ScrollerCompatImplIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorFilter)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0OnQueryTextListenerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0ViewDragCallback_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_EdgeEffectCompatIcs)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorAdapter_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0LayoutParams)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_EdgeEffectCompat_0BaseEdgeEffectImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SlidingPanelLayoutImplJBMR1)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0PanelSlideListener)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatHoneycomb_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatHoneycomb_02)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ViewDragHelper_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ViewDragHelper_02)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatHoneycomb_0OnQueryTextListenerCompatBridge)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompat_0ScrollerCompatImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0SimpleDrawerListener)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompat_0ScrollerCompatImplGingerbread)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0AccessibilityDelegate)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompat_0ScrollerCompatImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0DragHelperCallback)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatHoneycombImpl_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatHoneycombImpl_02)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SimpleCursorAdapter_0CursorToStringConverter)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatStubImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompatGingerbread)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0ViewDragCallback)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SavedState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_CursorAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SimpleCursorAdapter_0ViewBinder)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SlidingPanelLayoutImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatHoneycombImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SimpleCursorAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatHoneycomb_0OnCloseListenerCompatBridge)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SimplePanelSlideListener)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0SavedState_01)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompat_0SearchViewCompatIcsImpl)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SearchViewCompatHoneycomb)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ViewDragHelper)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0DisableLayerRunnable)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ScrollerCompat)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ViewDragHelper_0Callback)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SlidingPanelLayoutImplBase)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0DrawerListener)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_ResourceCursorAdapter)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_SlidingPaneLayout_0SlidingPanelLayoutImplJB)
+	JPP_DECL_CLASS_ID(android_support_v4_widget_DrawerLayout_0SavedState)
+	JPP_BEGIN_PACKAGE_CLASS_ID(demo_amark_c)
+	JPP_DECL_CLASS_ID(demo_amark_c_a)
+	JPP_DECL_CLASS_ID(demo_amark_c_b)
+	JPP_BEGIN_PACKAGE_CLASS_ID(demo_amark_b)
+	JPP_DECL_CLASS_ID(demo_amark_b_a)
+	JPP_DECL_CLASS_ID(demo_amark_b_b)
+	JPP_DECL_CLASS_ID(demo_amark_b_c)
+	JPP_DECL_CLASS_ID(demo_amark_b_d)
+	JPP_DECL_CLASS_ID(demo_amark_b_e)
+	JPP_DECL_CLASS_ID(demo_amark_b_f)
+	JPP_DECL_CLASS_ID(demo_amark_b_g)
+	JPP_DECL_CLASS_ID(demo_amark_b_h)
+	JPP_DECL_CLASS_ID(demo_amark_b_i)
+	JPP_DECL_CLASS_ID(demo_amark_b_j)
+	JPP_DECL_CLASS_ID(demo_amark_b_k)
+	JPP_DECL_CLASS_ID(demo_amark_b_l)
+	JPP_DECL_CLASS_ID(demo_amark_b_m)
+	JPP_DECL_CLASS_ID(demo_amark_b_App)
+	JPP_DECL_CLASS_ID(demo_amark_b_Screen)
+JPP_END_CLASS_ID_LIST()
+
+
+#if (JPP_JNI_EXPORT_LEVEL > 0)
+
+JPP_BEGIN_EXTERNAL_ARGLIST_ID_LIST()
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jfloat, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jfloat, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jlonglong, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jbool, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			android_app_Activity_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_app_FragmentManagerImpl_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jfloat, 
+			jfloat, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jfloat, 
+			jfloat, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jfloat, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jfloat, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jbool, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jbool, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			Byte_ap, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_ViewGroup_p, 
+			jint, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			Int_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			android_content_Intent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_util_AttributeSet_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_support_v4_app_Fragment_p, 
+			jint, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			android_view_View_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jlonglong, 
+			jlonglong, 
+			java_io_PrintWriter_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_CharSequence_p, 
+			jbool, 
+			java_lang_CharSequence_p, 
+			java_util_ArrayList_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_CursorAdapter_p, 
+			android_support_v4_widget_CursorAdapter_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			wish_lcdui_Graphics_p, 
+			Int_ap, 
+			Byte_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jint, 
+			android_view_ViewGroup_0LayoutParams_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcel_p, 
+			android_support_v4_app_FragmentTabHost_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jint, 
+			wish_lcdui_Image_p, 
+			wish_lcdui_Graphics_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_app_PendingIntent_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			android_graphics_Rect_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SlidingPaneLayout_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SlidingPaneLayout_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			wish_lcdui_Graphics_p, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_database_Cursor_p, 
+			android_database_ContentObserver_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			android_content_Context_p, 
+			jint, 
+			android_database_Cursor_p, 
+			java_lang_String_ap, 
+			Int_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			java_lang_Runnable_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			android_view_View_p, 
+			android_view_Menu_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(16, (
+			android_content_Context_p, 
+			android_app_Notification_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			android_widget_RemoteViews_p, 
+			jint, 
+			android_app_PendingIntent_p, 
+			android_app_PendingIntent_p, 
+			android_graphics_Bitmap_p, 
+			jint, 
+			jint, 
+			jbool, 
+			jbool, 
+			jint, 
+			java_lang_CharSequence_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityManagerIcsImpl_p, 
+			android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityStateChangeListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_widget_TabHost_0TabSpec_p, 
+			java_lang_Class_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_app_FragmentActivity_p, 
+			android_support_v4_app_FragmentContainer_p, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Intent_p, 
+			java_util_ArrayList_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_VelocityTracker_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_support_v4_view_PagerAdapter_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_content_pm_ProviderInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_Fragment_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			wish_lcdui_Graphics_0Polygon_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_view_accessibility_AccessibilityEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_net_Uri_p, 
+			android_content_ContentValues_p, 
+			java_lang_String_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_support_v4_widget_SearchViewCompat_0OnQueryTextListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			android_support_v4_app_FragmentTransaction_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_MenuItem_p, 
+			android_app_Activity_p, 
+			android_content_Intent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcel_p, 
+			java_lang_ClassLoader_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			java_lang_String_p, 
+			java_io_File_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SearchViewCompat_0SearchViewCompatHoneycombImpl_p, 
+			android_support_v4_widget_SearchViewCompat_0OnCloseListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_net_Uri_p, 
+			android_content_ContentValues_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(10, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_content_Context_p, 
+			jint, 
+			android_database_Cursor_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_content_Context_p, 
+			jint, 
+			android_database_Cursor_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_app_Activity_p, 
+			java_lang_String_p, 
+			java_io_FileDescriptor_p, 
+			java_io_PrintWriter_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			android_view_View_p, 
+			android_view_ViewGroup_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_p, 
+			android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_Object_p, 
+			android_view_View_p, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			android_support_v4_app_Fragment_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			android_os_Bundle_p, 
+			android_support_v4_app_LoaderManager_0LoaderCallbacks_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_content_Context_p, 
+			jfloat, 
+			jfloat, 
+			jfloat, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateIcsImpl_p, 
+			android_support_v4_view_AccessibilityDelegateCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			java_lang_Class_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_MotionEvent_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_ViewGroup_p, 
+			jfloat, 
+			android_support_v4_widget_ViewDragHelper_0Callback_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_Object_p, 
+			android_app_Activity_p, 
+			android_graphics_drawable_Drawable_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			Int_ap, 
+			Int_ap, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Int_ap, 
+			Int_ap, 
+			Byte_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Int_ap, 
+			Int_ap, 
+			Int_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityManager_p, 
+			android_support_v4_view_accessibility_AccessibilityManagerCompat_0AccessibilityStateChangeListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityEvent_p, 
+			android_support_v4_view_accessibility_AccessibilityRecordCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			Unicod_ap, 
+			jint, 
+			unicod, 
+			jint, 
+			jbool, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			java_lang_CharSequence_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_view_ViewPager_0ItemInfo_p, 
+			jint, 
+			android_support_v4_view_ViewPager_0ItemInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_MenuItem_p, 
+			android_support_v4_app_ShareCompat_0IntentBuilder_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			demo_amark_b_a_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentManager_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_app_Activity_p, 
+			android_support_v4_widget_DrawerLayout_p, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			android_content_Context_p, 
+			android_net_Uri_p, 
+			java_lang_String_ap, 
+			java_lang_String_p, 
+			java_lang_String_ap, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			Unicod_ap, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			java_lang_Class_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jint, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_ContextMenu_p, 
+			android_view_View_p, 
+			android_view_ContextMenu_0ContextMenuInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_widget_ListView_p, 
+			android_view_View_p, 
+			jint, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_view_KeyEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_String_p, 
+			java_io_FileDescriptor_p, 
+			java_io_PrintWriter_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			android_graphics_Rect_p, 
+			android_graphics_Rect_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_PagerAdapter_p, 
+			android_support_v4_view_PagerAdapter_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Runnable_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_ViewPager_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Intent_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(13, (
+			android_content_Context_p, 
+			android_app_Notification_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			android_widget_RemoteViews_p, 
+			jint, 
+			android_app_PendingIntent_p, 
+			android_app_PendingIntent_p, 
+			android_graphics_Bitmap_p, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_support_v4_content_Loader_0OnLoadCompleteListener_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(8, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			android_support_v4_app_FragmentActivity_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			android_view_View_p, 
+			android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_graphics_Canvas_p, 
+			android_view_View_p, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SlidingPaneLayout_p, 
+			android_support_v4_widget_SlidingPaneLayout_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_AsyncTaskLoader_0LoadTask_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			jbool, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentTransaction_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImplBase_p, 
+			android_os_Handler_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jint, 
+			android_graphics_Paint_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_content_Context_p, 
+			android_content_Intent_ap, 
+			jint, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_support_v4_app_FragmentManager_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_widget_AdapterView_p, 
+			android_view_View_p, 
+			jint, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jlonglong, 
+			java_io_PrintWriter_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_ViewGroup_p, 
+			android_view_View_p, 
+			android_view_accessibility_AccessibilityEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jlonglong, 
+			java_util_concurrent_TimeUnit_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_AccessibilityDelegateCompat_0AccessibilityDelegateJellyBeanImpl_p, 
+			android_support_v4_view_AccessibilityDelegateCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			android_view_View_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_app_Activity_p, 
+			android_content_Intent_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(9, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			android_database_Cursor_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_view_accessibility_AccessibilityNodeInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_os_Bundle_p, 
+			java_lang_String_p, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_CharSequence_p, 
+			android_widget_Filter_0FilterResults_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_Menu_p, 
+			jint, 
+			android_support_v4_app_ShareCompat_0IntentBuilder_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_graphics_Rect_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_widget_TextView_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_app_Fragment_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			java_io_PrintWriter_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_app_FragmentManagerImpl_p, 
+			java_lang_String_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_CharSequence_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcelable_p, 
+			java_util_ArrayList_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_ViewGroup_p, 
+			android_support_v4_widget_ViewDragHelper_0Callback_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jfloat, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jfloat, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			android_view_View_p, 
+			jbool, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_MotionEvent_p, 
+			android_view_MotionEvent_p, 
+			android_view_MotionEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_content_Context_p, 
+			jint, 
+			android_database_Cursor_p, 
+			java_lang_String_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_MenuItem_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_support_v4_view_AccessibilityDelegateCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_KeyEvent_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jbool, 
+			java_lang_Object_p, 
+			java_lang_Object_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			java_lang_StringBuilder_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityEvent_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_content_Context_p, 
+			jint, 
+			android_content_Intent_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			unicod, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(7, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_support_v4_app_FragmentManager_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_view_View_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SlidingPaneLayout_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jfloat, 
+			jfloat, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_view_Menu_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_ModernAsyncTask_p, 
+			java_util_concurrent_Callable_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_net_Uri_p, 
+			java_lang_String_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Byte_ap, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_app_Activity_p, 
+			android_os_Handler_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcel_p, 
+			android_support_v4_widget_SlidingPaneLayout_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Int_ap, 
+			wish_lcdui_Graphics_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_support_v4_app_Fragment_p, 
+			android_content_Intent_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_support_v4_app_LoaderManagerImpl_p, 
+			jint, 
+			android_os_Bundle_p, 
+			android_support_v4_app_LoaderManager_0LoaderCallbacks_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			wish_lcdui_Image_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jfloat, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jint, 
+			jbool, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_graphics_drawable_Drawable_p, 
+			java_lang_Runnable_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jbool, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			jbool, 
+			jbool, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jlonglong, 
+			java_lang_StringBuilder_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_BroadcastReceiver_p, 
+			android_content_IntentFilter_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			wish_lcdui_Graphics_p, 
+			Int_ap, 
+			Int_ap, 
+			Int_ap, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_content_Intent_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			android_graphics_Canvas_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_LocalBroadcastManager_p, 
+			android_os_Looper_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			android_content_Context_p, 
+			android_database_Cursor_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_view_animation_Interpolator_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_util_concurrent_Executor_p, 
+			java_lang_Object_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_PagerTitleStrip_p, 
+			android_support_v4_view_PagerTitleStrip_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Int_ap, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			android_os_Parcelable_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_Loader_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			java_lang_CharSequence_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Longlong_ap, 
+			jint, 
+			jint, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(9, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			java_lang_Exception_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityManager_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			java_lang_CharSequence_p, 
+			android_app_PendingIntent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_graphics_Rect_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_widget_ImageView_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_support_v4_app_BackStackRecord_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			jint, 
+			android_database_Cursor_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_graphics_Paint_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityEvent_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_ViewGroup_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_ViewGroup_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_view_View_p, 
+			jbool, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			jint, 
+			android_support_v4_app_Fragment_p, 
+			java_lang_String_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_net_Uri_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_content_Intent_ap, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			Unicod_ap, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_app_Activity_p, 
+			android_util_AttributeSet_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			Int_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_util_ArrayList_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_ap, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_support_v4_app_Fragment_p, 
+			jint, 
+			jbool, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_LayoutInflater_p, 
+			android_view_ViewGroup_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcelable_p, 
+			java_lang_ClassLoader_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_content_ComponentName_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jlonglong, 
+			java_io_PrintWriter_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			jfloat, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_graphics_PorterDuff_0Mode_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			android_view_MenuItem_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			jbool, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			java_io_PrintWriter_p, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_StringBuilder_p, 
+			java_lang_CharSequence_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_support_v4_view_accessibility_AccessibilityNodeInfoCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_content_Intent_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			java_lang_Runnable_p, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_Object_p, 
+			android_view_ViewGroup_p, 
+			android_view_View_p, 
+			android_view_accessibility_AccessibilityEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_graphics_drawable_Drawable_p, 
+			java_lang_Runnable_p, 
+			jlonglong
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_GestureDetectorCompat_0GestureDetectorCompatImplBase_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_net_Uri_p, 
+			java_lang_String_ap, 
+			java_lang_String_p, 
+			java_lang_String_ap, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_ap, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jint, 
+			java_lang_Object_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_ViewPager_p, 
+			android_support_v4_view_ViewPager_01_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_app_Activity_p, 
+			android_content_Intent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			wish_lcdui_Graphics_p, 
+			Int_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			jint, 
+			jint, 
+			jint, 
+			android_graphics_Rect_p, 
+			android_graphics_Rect_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			wish_lcdui_Image_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentTabHost_0TabInfo_p, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_Object_p, 
+			android_view_View_p, 
+			android_view_accessibility_AccessibilityEvent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_io_File_p, 
+			java_lang_String_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jbool, 
+			android_support_v4_view_ViewPager_0PageTransformer_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			java_lang_CharSequence_p, 
+			jbool, 
+			java_lang_CharSequence_p, 
+			android_graphics_Bitmap_p, 
+			android_graphics_Bitmap_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			Int_ap, 
+			wish_lcdui_Graphics_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			jfloat
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(8, (
+			jint, 
+			jint, 
+			jint, 
+			android_graphics_Rect_p, 
+			jint, 
+			jint, 
+			android_graphics_Rect_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_net_ConnectivityManager_p, 
+			android_content_Intent_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentManagerImpl_p, 
+			android_support_v4_app_BackStackRecord_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Bundle_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_view_GestureDetector_0OnGestureListener_p, 
+			android_os_Handler_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_database_Cursor_p, 
+			android_view_ViewGroup_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_MenuItem_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentActivity_p, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(11, (
+			java_lang_Object_p, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_view_View_p, 
+			java_lang_CharSequence_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_content_ComponentName_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_view_ViewGroup_p, 
+			android_support_v4_widget_ViewDragHelper_0Callback_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_0AccessibilityNodeProviderJellyBeanImpl_p, 
+			android_support_v4_view_accessibility_AccessibilityNodeProviderCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_view_ViewPager_0ItemInfo_p, 
+			android_support_v4_view_ViewPager_0ItemInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_ModernAsyncTask_p, 
+			java_lang_Object_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_CharSequence_p, 
+			jbool, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_content_ModernAsyncTask_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_Fragment_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_Fragment_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_view_SurfaceHolder_p, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			java_lang_String_p, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_database_Cursor_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_graphics_drawable_Drawable_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(10, (
+			android_content_Context_p, 
+			android_app_Notification_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			java_lang_CharSequence_p, 
+			android_widget_RemoteViews_p, 
+			jint, 
+			android_app_PendingIntent_p, 
+			android_app_PendingIntent_p, 
+			android_graphics_Bitmap_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_database_Cursor_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_database_Cursor_p, 
+			jbool
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			Int_ap, 
+			Int_ap, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			Int_ap, 
+			Int_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_DrawerLayout_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(6, (
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			jlonglong, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_net_Uri_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			java_lang_String_p, 
+			android_content_Context_p, 
+			android_util_AttributeSet_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_IntentFilter_p, 
+			android_content_BroadcastReceiver_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_support_v4_widget_SearchViewCompat_0OnCloseListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_os_Handler_p, 
+			java_lang_String_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_view_GestureDetector_0OnGestureListener_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			java_util_ArrayList_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_CharSequence_p, 
+			android_widget_RemoteViews_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_String_p, 
+			java_io_File_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_Menu_p, 
+			android_view_MenuInflater_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_app_FragmentManagerImpl_p, 
+			android_support_v4_app_Fragment_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_content_Context_p, 
+			android_content_pm_ActivityInfo_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_os_Parcel_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			java_lang_String_p, 
+			jint, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_content_Context_p, 
+			android_util_AttributeSet_p, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			android_database_Cursor_p, 
+			java_lang_String_ap, 
+			Int_ap
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(5, (
+			android_content_Context_p, 
+			jint, 
+			android_content_Intent_ap, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_accessibility_AccessibilityManager_p, 
+			java_lang_Object_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			java_lang_Object_p, 
+			java_lang_String_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_support_v4_widget_SearchViewCompat_0SearchViewCompatHoneycombImpl_p, 
+			android_support_v4_widget_SearchViewCompat_0OnQueryTextListenerCompat_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_app_Activity_p, 
+			android_content_Intent_p, 
+			jint, 
+			android_os_Bundle_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(3, (
+			jint, 
+			jint, 
+			android_view_View_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(4, (
+			android_view_View_p, 
+			android_graphics_Bitmap_p, 
+			jint, 
+			jint
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(7, (
+			wish_lcdui_Graphics_p, 
+			Int_ap, 
+			Int_ap, 
+			Int_ap, 
+			jint, 
+			jint, 
+			wish_lcdui_Image_p
+	))
+	JPP_DECL_ARGLIST_ID_SLOT(2, (
+			android_view_View_p, 
+			android_view_View_p
+	))
+JPP_END_EXTERNAL_ARGLIST_ID_LIST()
+
+
+JPP_DECL_ANDROID_BRIDGE(41111111);
+
+JPP_DECL_ANDROID_BRIDGE(521);
+
+JPP_DECL_ANDROID_BRIDGE(4211);
+
+JPP_DECL_ANDROID_BRIDGE(011111111111);
+
+JPP_DECL_ANDROID_BRIDGE(421);
+
+JPP_DECL_ANDROID_BRIDGE(4112);
+
+JPP_DECL_ANDROID_BRIDGE(21);
+
+JPP_DECL_ANDROID_BRIDGE(4111);
+
+JPP_DECL_ANDROID_BRIDGE(51);
+
+JPP_DECL_ANDROID_BRIDGE(011111111);
+
+JPP_DECL_ANDROID_BRIDGE(411111111111);
+
+JPP_DECL_ANDROID_BRIDGE(011111);
+
+JPP_DECL_ANDROID_BRIDGE(512);
+
+JPP_DECL_ANDROID_BRIDGE(411111);
+
+JPP_DECL_ANDROID_BRIDGE(511);
+
+JPP_DECL_ANDROID_BRIDGE(51112);
+
+JPP_DECL_ANDROID_BRIDGE(4111111111);
+
+JPP_DECL_ANDROID_BRIDGE(6);
+
+JPP_DECL_ANDROID_BRIDGE(51111);
+
+JPP_DECL_ANDROID_BRIDGE(5);
+
+JPP_DECL_ANDROID_BRIDGE(4);
+
+JPP_DECL_ANDROID_BRIDGE(2);
+
+JPP_DECL_ANDROID_BRIDGE(411);
+
+JPP_DECL_ANDROID_BRIDGE(1);
+
+JPP_DECL_ANDROID_BRIDGE(12);
+
+JPP_DECL_ANDROID_BRIDGE(0);
+
+JPP_DECL_ANDROID_BRIDGE(11);
+
+JPP_DECL_ANDROID_BRIDGE(121);
+
+JPP_DECL_ANDROID_BRIDGE(0112);
+
+JPP_DECL_ANDROID_BRIDGE(41);
+
+JPP_DECL_ANDROID_BRIDGE(0111);
+
+JPP_DECL_ANDROID_BRIDGE(11111);
+
+JPP_DECL_ANDROID_BRIDGE(5111);
+
+JPP_DECL_ANDROID_BRIDGE(01111111111111111);
+
+JPP_DECL_ANDROID_BRIDGE(021);
+
+JPP_DECL_ANDROID_BRIDGE(51111111111111);
+
+JPP_DECL_ANDROID_BRIDGE(0111111111);
+
+JPP_DECL_ANDROID_BRIDGE(01111111);
+
+JPP_DECL_ANDROID_BRIDGE(41111);
+
+JPP_DECL_ANDROID_BRIDGE(4221);
+
+JPP_DECL_ANDROID_BRIDGE(01111111111);
+
+JPP_DECL_ANDROID_BRIDGE(01112);
+
+JPP_DECL_ANDROID_BRIDGE(01111);
+
+JPP_DECL_ANDROID_BRIDGE(111111);
+
+JPP_DECL_ANDROID_BRIDGE(02);
+
+JPP_DECL_ANDROID_BRIDGE(111);
+
+JPP_DECL_ANDROID_BRIDGE(01);
+
+JPP_DECL_ANDROID_BRIDGE(511111);
+
+JPP_DECL_ANDROID_BRIDGE(411111111);
+
+JPP_DECL_ANDROID_BRIDGE(1111111);
+
+JPP_DECL_ANDROID_BRIDGE(1112);
+
+JPP_DECL_ANDROID_BRIDGE(0111111);
+
+JPP_DECL_ANDROID_BRIDGE(5111111);
+
+JPP_DECL_ANDROID_BRIDGE(011);
+
+JPP_DECL_ANDROID_BRIDGE(1111);
+
+JPP_DECL_ANDROID_BRIDGE(4111111);
+
+JPP_DECL_ANDROID_BRIDGE(51111111111);
+
+#endif // (JPP_JNI_EXPORT_LEVEL > 0)
+
+#endif // __JPP_EXTERNAL_CONSTANTS_H__

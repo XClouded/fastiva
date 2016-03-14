@@ -1,0 +1,4 @@
+BASEDIR=$(dirname $0) 
+java -jar $BASEDIR/baksmali-2.0.3.jar -d $3 -o $1.out -x $1 && \
+java -jar $BASEDIR/smali-2.0.3.jar -o $2 -x $1.out
+
